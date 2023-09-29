@@ -21,7 +21,6 @@ jobs:
           args: >-
             -t html5
             --template=template.html
-            -F code-block-filter.py src/$*.md -o out/$*.html
             -s
             --syntax-definition=toml.xml
             --highlight-style=diesel.theme"
